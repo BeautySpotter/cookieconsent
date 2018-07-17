@@ -1,7 +1,7 @@
 {
   "name": "cookieconsent",
   "version": "3.1.0",
-  "description": "Insites' cookie consent tool.",
+  "description": "Insites' cookie consent tool. forked by beautyspotter",
   "main": "build/cookieconsent.min.js",
   "devDependencies": {
     "del": "^2.0.2",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/insites/cookieconsent.git"
+    "url": "https://github.com/BeautySpotter/cookieconsent.git"
   },
   "author": "Silktide Ltd.",
   "license": "MIT"
