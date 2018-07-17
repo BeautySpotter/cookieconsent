@@ -623,7 +623,7 @@
 
     // returns true if the cookie has a valid value
     CookiePopup.prototype.hasAnswered = function(options) {
-      return Object.keys(cc.status).indexOf(this.getStatus()) >= 0;
+      return Object.values(cc.status).indexOf(this.getStatus()) >= 0;
     };
 
     // returns true if the cookie indicates that consent has been given
@@ -650,7 +650,7 @@
       if (Object.keys(cc.status).indexOf(status) >= 0) {
         util.setCookie(
           c.name,
-          status,
+          cc.status[status],
           c.expiryDays,
           c.domain,
           c.path,
