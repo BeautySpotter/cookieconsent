@@ -1,5 +1,5 @@
 {
-  "name": "cookieconsent",
+  "name": "beautyspotter-cookieconsent",
   "version": "3.1.0",
   "description": "Insites' cookie consent tool. forked by beautyspotter",
   "main": "build/cookieconsent.min.js",
